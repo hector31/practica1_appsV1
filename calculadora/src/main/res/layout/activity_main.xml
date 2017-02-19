@@ -15,8 +15,7 @@
             android:id="@+id/eNumero"
             android:textCursorDrawable="@color/white"
             android:textAlignment="textEnd"
-            android:text="0"
-
+            android:inputType="numberDecimal"
             android:background="@color/white"
             />
 
@@ -26,25 +25,25 @@
 
         <Button style="@style/ButtonStyle"
             android:id="@+id/b7"
-            android:text="7"
+            android:text="@string/siete"
             >
 
         </Button>
         <Button style="@style/ButtonStyle"
             android:id="@+id/b8"
-            android:text="8"
+            android:text="@string/ocho"
             >
 
         </Button>
         <Button style="@style/ButtonStyle"
             android:id="@+id/b9"
-            android:text="9"
+            android:text="@string/nueve"
             >
 
         </Button>
         <Button style="@style/ButtonStyle"
             android:id="@+id/bMas"
-            android:text="+"
+            android:text="@string/mas"
             >
 
         </Button>
@@ -55,25 +54,25 @@
     <LinearLayout style="@style/LayoutStyle">
         <Button style="@style/ButtonStyle"
             android:id="@+id/b4"
-            android:text="4"
+            android:text="@string/cuatro"
             >
 
         </Button>
         <Button style="@style/ButtonStyle"
             android:id="@+id/b5"
-            android:text="5"
+            android:text="@string/cinco"
             >
 
         </Button>
         <Button style="@style/ButtonStyle"
             android:id="@+id/b6"
-            android:text="6"
+            android:text="@string/seis"
             >
 
         </Button>
         <Button style="@style/ButtonStyle"
             android:id="@+id/bMenos"
-            android:text="-"
+            android:text="@string/menos"
             >
 
         </Button>
@@ -84,25 +83,25 @@
     <LinearLayout style="@style/LayoutStyle">
         <Button style="@style/ButtonStyle"
             android:id="@+id/b1"
-            android:text="1"
+            android:text="@string/uno"
             >
 
         </Button>
         <Button style="@style/ButtonStyle"
             android:id="@+id/b2"
-            android:text="2"
+            android:text="@string/dos"
             >
 
         </Button>
         <Button style="@style/ButtonStyle"
             android:id="@+id/b3"
-            android:text="3"
+            android:text="@string/tres"
             >
 
         </Button>
         <Button style="@style/ButtonStyle"
             android:id="@+id/bPor"
-            android:text="*"
+            android:text="@string/por"
             >
 
         </Button>
@@ -113,26 +112,26 @@
     <LinearLayout style="@style/LayoutStyle">
         <Button style="@style/ButtonStyle"
             android:id="@+id/bPunto"
-            android:text="."
+            android:text="@string/punto"
             >
 
         </Button>
         <Button style="@style/ButtonStyle"
             android:id="@+id/b0"
-            android:text="0"
+            android:text="@string/cero"
             >
 
         </Button>
 
         <Button style="@style/ButtonStyle"
             android:id="@+id/bBorrar"
-            android:text="AC"
+            android:text="@string/borrar"
             >
 
         </Button>
         <Button style="@style/ButtonStyle"
             android:id="@+id/bDivision"
-            android:text="/"
+            android:text="@string/division"
             >
 
         </Button>
