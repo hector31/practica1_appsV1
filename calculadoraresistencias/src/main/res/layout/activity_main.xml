@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.calculadoraresistencias.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="@string/titulo2"
+            />
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button style="@style/ButtonStyle" >
+            </Button>
+            <Button style="@style/ButtonStyle">
+            </Button>
+            <Button style="@style/ButtonStyle">
+            </Button>
+            <Button style="@style/ButtonStyle">
+            </Button>
+            <Button style="@style/ButtonStyle">
+            </Button>
+            <Button style="@style/ButtonStyle">
+            </Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button style="@style/ButtonStyle2" >
+            </Button>
+            <Button style="@style/ButtonStyle2">
+            </Button>
+            <Button style="@style/ButtonStyle2">
+            </Button>
+            <Button style="@style/ButtonStyle2">
+            </Button>
+            <Button style="@style/ButtonStyle2">
+            </Button>
+            <Button style="@style/ButtonStyle2">
+            </Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button style="@style/ButtonStyle3" >
+            </Button>
+            <Button style="@style/ButtonStyle3">
+            </Button>
+            <Button style="@style/ButtonStyle3">
+            </Button>
+            <Button style="@style/ButtonStyle3">
+            </Button>
+            <Button style="@style/ButtonStyle3">
+            </Button>
+            <Button style="@style/ButtonStyle3">
+            </Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button style="@style/ButtonStyle4" >
+            </Button>
+            <Button style="@style/ButtonStyle4">
+            </Button>
+            <Button style="@style/ButtonStyle4">
+            </Button>
+            <Button style="@style/ButtonStyle4">
+            </Button>
+            <Button style="@style/ButtonStyle4">
+            </Button>
+            <Button style="@style/ButtonStyle4">
+            </Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button style="@style/ButtonStyle5" >
+            </Button>
+            <Button style="@style/ButtonStyle5">
+            </Button>
+            <Button style="@style/ButtonStyle5">
+            </Button>
+            <Button style="@style/ButtonStyle5">
+            </Button>
+            <Button style="@style/ButtonStyle5">
+            </Button>
+            <Button style="@style/ButtonStyle5">
+            </Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button style="@style/ButtonStyle6" >
+            </Button>
+            <Button style="@style/ButtonStyle6">
+            </Button>
+            <Button style="@style/ButtonStyle6">
+            </Button>
+            <Button style="@style/ButtonStyle6">
+            </Button>
+            <Button style="@style/ButtonStyle6">
+            </Button>
+            <Button style="@style/ButtonStyle6">
+            </Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button style="@style/ButtonStyle7" >
+            </Button>
+            <Button style="@style/ButtonStyle7">
+            </Button>
+            <Button style="@style/ButtonStyle7">
+            </Button>
+            <Button style="@style/ButtonStyle7">
+            </Button>
+            <Button style="@style/ButtonStyle7">
+            </Button>
+            <Button style="@style/ButtonStyle7">
+            </Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button style="@style/ButtonStyle8" >
+            </Button>
+            <Button style="@style/ButtonStyle8">
+            </Button>
+            <Button style="@style/ButtonStyle8">
+            </Button>
+            <Button style="@style/ButtonStyle8">
+            </Button>
+            <Button style="@style/ButtonStyle8">
+            </Button>
+            <Button style="@style/ButtonStyle8">
+            </Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button style="@style/ButtonStyle9" >
+            </Button>
+            <Button style="@style/ButtonStyle9">
+            </Button>
+            <Button style="@style/ButtonStyle9">
+            </Button>
+            <Button style="@style/ButtonStyle9">
+            </Button>
+            <Button style="@style/ButtonStyle9">
+            </Button>
+            <Button style="@style/ButtonStyle9">
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textAlignment="center"
+            android:translationY="25dp"
+            android:text="@string/numeroB"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cuatro"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cinco"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seis"
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/banda1"
+            android:layout_marginLeft="30dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/banda2"
+            android:layout_marginLeft="30dp"                />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/banda3"
+            android:layout_marginLeft="30dp"                />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/banda4"
+            android:layout_marginLeft="30dp"                />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/banda5"
+            android:layout_marginLeft="30dp"                />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@color/black"
+            android:text="@string/valorR"
+            />
+
+    </LinearLayout><!--botones lado derecho -->
+
+</LinearLayout>

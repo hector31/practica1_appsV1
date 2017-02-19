@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CalculadoraResistencias</string>
+    <string name="titulo2">color de resistencia</string>
+    <string name="banda1">B1</string>
+    <string name="banda2">B2</string>
+    <string name="banda3">B3</string>
+    <string name="banda4">B4</string>
+    <string name="banda5">B5</string>
+    <string name="valorR">VALOR RESISTENCIA</string>
+    <string name="cuatro">cuatro</string>
+    <string name="cinco">cinco</string>
+    <string name="seis">seis</string>
+    <string name="numeroB">Numero de Bandas</string>
+</resources>
