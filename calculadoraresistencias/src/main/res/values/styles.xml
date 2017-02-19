@@ -8,7 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     <style name="ButtonStyle">
-        <item name="android:layout_width">102dp</item>
+        <item name="android:layout_width">0dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:textSize">35sp</item>
@@ -19,7 +19,7 @@
 
     </style>
     <style name="ButtonStyle2">
-        <item name="android:layout_width">102dp</item>
+        <item name="android:layout_width">0dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:textSize">35sp</item>
@@ -30,7 +30,7 @@
 
     </style>
     <style name="ButtonStyle3">
-        <item name="android:layout_width">102dp</item>
+        <item name="android:layout_width">0dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:textSize">35sp</item>
@@ -52,7 +52,7 @@
 
     </style>
     <style name="ButtonStyle5">
-        <item name="android:layout_width">102dp</item>
+        <item name="android:layout_width">0dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:textSize">35sp</item>
@@ -63,7 +63,7 @@
 
     </style>
     <style name="ButtonStyle6">
-        <item name="android:layout_width">102dp</item>
+        <item name="android:layout_width">0dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:textSize">35sp</item>
@@ -74,7 +74,7 @@
 
     </style>
     <style name="ButtonStyle7">
-        <item name="android:layout_width">102dp</item>
+        <item name="android:layout_width">0dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:textSize">35sp</item>
@@ -85,7 +85,7 @@
 
     </style>
     <style name="ButtonStyle8">
-        <item name="android:layout_width">102dp</item>
+        <item name="android:layout_width">0dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:textSize">35sp</item>
@@ -96,7 +96,7 @@
 
     </style>
     <style name="ButtonStyle9">
-        <item name="android:layout_width">102dp</item>
+        <item name="android:layout_width">0dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:textSize">35sp</item>
@@ -106,11 +106,22 @@
         <item name="android:onClick">click</item>
 
     </style>
+    <style name="ButtonStyle10">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:color">@color/white</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:onClick">click</item>
+
+    </style>
 
     <style name="LayoutStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_height">0dp</item>
 
     </style>
 
