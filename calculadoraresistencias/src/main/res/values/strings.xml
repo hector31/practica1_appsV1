@@ -10,5 +10,9 @@
     <string name="cuatro">cuatro</string>
     <string name="cinco">cinco</string>
     <string name="seis">seis</string>
-    <string name="numeroB">Numero de Bandas</string>
+    <string name="numeroB">Bandas</string>
+    <string name="res">RESULTADO</string>
+    <string name="tol">TOLERANCIA</string>
+    <string name="temp">PPM</string>
+    <string name="banda6">B6</string>
 </resources>

@@ -7,7 +7,7 @@
 
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="240dp"
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
@@ -26,9 +26,10 @@
 
             <Button
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@color/coral"
+                android:layout_margin="1dp"
+                android:visibility="invisible"
                 />
             <Button style="@style/ButtonStyle"
                 android:id="@+id/b2n1"           >
@@ -168,6 +169,7 @@
                 android:layout_weight="1"
                 android:layout_margin="1dp"
                 android:onClick="click"
+                android:id="@+id/b4n6"
                 android:background="@color/gold"
                 />
             <Button style="@style/ButtonStyle6"
@@ -198,6 +200,7 @@
                 android:layout_weight="1"
                 android:layout_margin="1dp"
                 android:onClick="click"
+                android:id="@+id/b4n7"
                 android:background="@color/gainsboro"
                 />
             <Button style="@style/ButtonStyle7"
@@ -226,6 +229,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:visibility="invisible"
                 android:layout_margin="1dp"
                 android:background="@color/coral"
                 />
@@ -234,11 +238,13 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="1dp"
+                android:visibility="invisible"
                 android:background="@color/coral"
                 />
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:visibility="invisible"
                 android:layout_weight="1"
                 android:layout_margin="1dp"
                 android:background="@color/coral"
@@ -263,6 +269,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:visibility="invisible"
                 android:layout_margin="1dp"
                 android:background="@color/coral"
                 />
@@ -270,12 +277,14 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:visibility="invisible"
                 android:layout_margin="1dp"
                 android:background="@color/coral"
                 />
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:visibility="invisible"
                 android:layout_weight="1"
                 android:layout_margin="1dp"
                 android:background="@color/coral"
@@ -296,26 +305,17 @@
             <Button style="@style/ButtonStyle10"
                 android:id="@+id/b3n10">
             </Button>
-            <Button
-                android:layout_width="0dp"
+
+            <EditText
+                android:layout_width="80dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="1dp"
-                android:background="@color/coral"
-                />
-            <Button
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:layout_margin="1dp"
-                android:background="@color/coral"
-                />
-            <Button
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:layout_margin="1dp"
-                android:background="@color/coral"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:hint="@string/temp"
+                android:id="@+id/res3"
                 />
 
         </LinearLayout>
@@ -353,6 +353,7 @@
                 android:background="@color/black"
                 android:textColor="@color/white"
 
+
                 />
             <Button
                 android:layout_width="match_parent"
@@ -380,47 +381,77 @@
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="32dp"
                 android:text="@string/banda1"
-                android:layout_marginStart="20dp"
-                android:id="@+id/B1"
+                android:background="@color/lightgray"
+                android:layout_margin="3dp"
+                  android:id="@+id/B1"
                 />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="32dp"
                 android:text="@string/banda2"
-                android:layout_marginStart="20dp"
+                android:background="@color/lightgray"
+                android:layout_margin="3dp"
                 android:id="@+id/B2"/>
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="32dp"
                 android:text="@string/banda3"
-                android:layout_marginStart="20dp"
+                android:background="@color/lightgray"
+                android:layout_margin="3dp"
                 android:id="@+id/B3"/>
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="32dp"
                 android:text="@string/banda4"
-                android:layout_marginStart="20dp"
+                android:background="@color/lightgray"
+                android:layout_margin="3dp"
                 android:id="@+id/B4"/>
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="32dp"
                 android:text="@string/banda5"
-                android:layout_marginStart="20dp"
+                android:background="@color/lightgray"
+                android:layout_margin="3dp"
                 android:id="@+id/B5"
                 />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:textSize="12sp"
-                android:textColor="@color/black"
-                android:text="@string/valorR"
-                android:id="@+id/valor"
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:text="@string/banda6"
+                android:background="@color/lightgray"
+                android:layout_margin="3dp"
+                android:id="@+id/B6"
                 />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:layout_height="0dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:hint="@string/res"
+        android:id="@+id/res"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:hint="@string/tol"
+        android:id="@+id/res2"
+        />
+
+</LinearLayout>
 
 
         </LinearLayout>

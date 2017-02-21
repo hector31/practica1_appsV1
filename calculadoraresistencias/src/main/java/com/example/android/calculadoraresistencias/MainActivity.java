@@ -13,19 +13,22 @@ import static com.example.android.calculadoraresistencias.R.id.B1;
 import static com.example.android.calculadoraresistencias.R.id.b1n2;
 import static com.example.android.calculadoraresistencias.R.id.res;
 import static com.example.android.calculadoraresistencias.R.id.text;
+import static com.example.android.calculadoraresistencias.R.id.text2;
 
 public class MainActivity extends AppCompatActivity implements  View.OnClickListener {
-    double valor;
-    EditText resultado;
-    TextView texto;
+    double valor,valor2;
+    TextView texto,texto2,texto3;
     int  cont1=0;
     double [] fila1 = new double[9];
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         texto=(TextView) findViewById(R.id.res);
+        texto2=(TextView) findViewById(R.id.res2);
+        texto3=(TextView) findViewById(R.id.res3);
 
 
         findViewById(R.id.check1).setOnClickListener(this);
@@ -91,6 +94,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
 
     @Override
     public void onClick(View view) {
+
         int color = 0,coral = Color.parseColor("#ff7f50"),
         Rojo=Color.parseColor("#ff0000"),
         AzulClaro=Color.parseColor("#00ced1"),
@@ -103,13 +107,28 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
         Naranja=Color.parseColor("#ffa500"),
         Yellow=Color.parseColor("#ffff00"),
         Azul=Color.parseColor("#3F51B5"),
-        Verde=Color.parseColor("#008000")
+        Verde=Color.parseColor("#008000"),
+        gris=Color.parseColor("#d3d3d3");
 
         ;
 
 
         switch (view.getId()) {
                 case R.id.check1:
+                    fila1[0]=0;
+                    fila1[1]=0;
+                    fila1[2]=0;
+                    fila1[3]=0;
+                    fila1[4]=0;
+                    fila1[5]=0;
+                    findViewById(R.id.B1).setBackgroundColor(gris);
+                    findViewById(R.id.B2).setBackgroundColor(gris);
+                    findViewById(R.id.B3).setBackgroundColor(gris);
+
+
+                    findViewById(R.id.B4).setBackgroundColor(gris);
+                findViewById(R.id.B5).setBackgroundColor(gris);
+                findViewById(R.id.B6).setBackgroundColor(gris);
 
                 findViewById(R.id.b5n1).setBackgroundColor(coral);
                 findViewById(R.id.b5n2).setBackgroundColor(coral);
@@ -141,11 +160,27 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
 
                 findViewById(R.id.B5).setVisibility(View.INVISIBLE);
                 findViewById(R.id.B6).setVisibility(View.INVISIBLE);
+
                 cont1=1;
 
                 break;
             case R.id.check2:
                 cont1=2;
+                fila1[0]=0;
+                fila1[1]=0;
+                fila1[2]=0;
+                fila1[3]=0;
+                fila1[4]=0;
+                fila1[5]=0;
+                findViewById(R.id.B1).setBackgroundColor(gris);
+                findViewById(R.id.B2).setBackgroundColor(gris);
+                findViewById(R.id.B3).setBackgroundColor(gris);
+
+                findViewById(R.id.B4).setBackgroundColor(gris);
+                findViewById(R.id.B5).setBackgroundColor(gris);
+                findViewById(R.id.B6).setBackgroundColor(gris);
+
+
                 findViewById(R.id.b6n1).setBackgroundColor(coral);
                 findViewById(R.id.b6n2).setBackgroundColor(coral);
                 findViewById(R.id.b6n3).setBackgroundColor(coral);
@@ -181,8 +216,20 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
 
             case R.id.check3:
             cont1=3;
+                fila1[0]=0;
+                fila1[1]=0;
+                fila1[2]=0;
+                fila1[3]=0;
+                fila1[4]=0;
+                fila1[5]=0;
+                findViewById(R.id.B1).setBackgroundColor(gris);
+                findViewById(R.id.B2).setBackgroundColor(gris);
+                findViewById(R.id.B3).setBackgroundColor(gris);
+                findViewById(R.id.B4).setBackgroundColor(gris);
+                findViewById(R.id.B5).setBackgroundColor(gris);
+                findViewById(R.id.B6).setBackgroundColor(gris);
 
-            findViewById(R.id.b6n1).setBackgroundColor(White);
+                findViewById(R.id.b6n1).setBackgroundColor(White);
             findViewById(R.id.b6n2).setBackgroundColor(Azul);
             findViewById(R.id.b6n3).setBackgroundColor(Yellow);
             findViewById(R.id.b6n4).setBackgroundColor(Marron);
@@ -212,25 +259,26 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
 
                 findViewById(R.id.B5).setVisibility(View.VISIBLE);
                 findViewById(R.id.B6).setVisibility(View.VISIBLE);
+
                 break;
             case R.id.b1n2:findViewById(R.id.B1).setBackgroundColor(Marron);
-                fila1[0]=10;break;
+                fila1[0]=1;break;
              case R.id.b1n3:findViewById(R.id.B1).setBackgroundColor(Rojo);
-                fila1[0]=20;break;
+                fila1[0]=2;break;
             case R.id.b1n4:findViewById(R.id.B1).setBackgroundColor(Naranja);
-                fila1[0]=30;break;
+                fila1[0]=3;break;
             case R.id.b1n5:findViewById(R.id.B1).setBackgroundColor(Yellow);
-                fila1[0]=40;break;
+                fila1[0]=4;break;
             case R.id.b1n6:findViewById(R.id.B1).setBackgroundColor(Verde);
-                fila1[0]=50;break;
+                fila1[0]=5;break;
             case R.id.b1n7:findViewById(R.id.B1).setBackgroundColor(Azul);
-                fila1[0]=60;break;
+                fila1[0]=6;break;
             case R.id.b1n8:findViewById(R.id.B1).setBackgroundColor(Morado);
-                fila1[0]=70;break;
+                fila1[0]=7;break;
             case R.id.b1n9:findViewById(R.id.B1).setBackgroundColor(Gris);
-                fila1[0]=80;break;
+                fila1[0]=8;break;
             case R.id.b1n10:findViewById(R.id.B1).setBackgroundColor(White);
-                fila1[0]=90;break;
+                fila1[0]=9;break;
 
             case R.id.b2n1:findViewById(R.id.B2).setBackgroundColor(Black);
                 fila1[1]=0;break;
@@ -287,7 +335,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
                 if(cont1==2||cont1==3){findViewById(R.id.B3).setBackgroundColor(Morado);
                     fila1[2]=7;
                 }break;
-            case R.id.b3n9:;
+            case R.id.b3n9:
                 if(cont1==1) {findViewById(R.id.B3).setBackgroundColor(AzulClaro);
                     fila1[2] = 0.01;                }
                 if(cont1==2||cont1==3){findViewById(R.id.B3).setBackgroundColor(Gris);
@@ -300,19 +348,19 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
 
 
             case R.id.b4n1:
-                if(cont1==1) {findViewById(R.id.B4).setBackgroundColor(Marron);fila1[3] = 0.01;                }
+                if(cont1==1) {findViewById(R.id.B4).setBackgroundColor(Marron);fila1[3] = 1;                }
                 if(cont1==2||cont1==3){findViewById(R.id.B4).setBackgroundColor(Black);fila1[3]=1;
                 }break;
             case R.id.b4n2:
-                if(cont1==1) {findViewById(R.id.B4).setBackgroundColor(Rojo);fila1[3] = 0.02;                }
+                if(cont1==1) {findViewById(R.id.B4).setBackgroundColor(Rojo);fila1[3] = 2;                }
                 if(cont1==2||cont1==3){findViewById(R.id.B4).setBackgroundColor(Marron);fila1[3]=10;
                 }break;
             case R.id.b4n3:
-                if(cont1==1) {findViewById(R.id.B4).setBackgroundColor(CafeClaro);fila1[3] = 0.05;                }
+                if(cont1==1) {findViewById(R.id.B4).setBackgroundColor(CafeClaro);fila1[3] = 5;                }
                 if(cont1==2||cont1==3){findViewById(R.id.B4).setBackgroundColor(Rojo);fila1[3]=100;
                 }break;
             case R.id.b4n4:
-                if(cont1==1) {findViewById(R.id.B4).setBackgroundColor(AzulClaro);fila1[3] = 0.1;                }
+                if(cont1==1) {findViewById(R.id.B4).setBackgroundColor(AzulClaro);fila1[3] = 10;                }
                 if(cont1==2||cont1==3){findViewById(R.id.B4).setBackgroundColor(Naranja);fila1[3]=1000;
                 }break;
             case R.id.b4n5:
@@ -327,16 +375,16 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
 
 
             case R.id.b5n1:
-                if(cont1==2||cont1==3){findViewById(R.id.B5).setBackgroundColor(Marron);fila1[4]=0.01;
+                if(cont1==2||cont1==3){findViewById(R.id.B5).setBackgroundColor(Marron);fila1[4]=1;
                 }break;
             case R.id.b5n2:
-                if(cont1==2||cont1==3){findViewById(R.id.B5).setBackgroundColor(Rojo);fila1[4]=0.02;
+                if(cont1==2||cont1==3){findViewById(R.id.B5).setBackgroundColor(Rojo);fila1[4]=2;
                 }break;
             case R.id.b5n3:
-                if(cont1==2||cont1==3){findViewById(R.id.B5).setBackgroundColor(CafeClaro);fila1[4]=0.05;
+                if(cont1==2||cont1==3){findViewById(R.id.B5).setBackgroundColor(CafeClaro);fila1[4]=5;
                 }break;
             case R.id.b5n4:
-                if(cont1==2||cont1==3){findViewById(R.id.B5).setBackgroundColor(AzulClaro);fila1[4]=0.1;
+                if(cont1==2||cont1==3){findViewById(R.id.B5).setBackgroundColor(AzulClaro);fila1[4]=10;
                 }break;
 
 
@@ -368,17 +416,31 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
 
 
         if(cont1==1){
-            valor=(fila1[0]+fila1[1])*fila1[2];
+            valor=(10*fila1[0]+fila1[1])*fila1[2];
+
         }
         if(cont1==2){
-            valor=(10*fila1[0]+(10*fila1[1])+fila1[2])*fila1[3];
+            valor=(100*fila1[0]+10*fila1[1]+fila1[2])*fila1[3];
+
+
         }
         if(cont1==3){
-            valor=(10*fila1[0]+(10*fila1[1])+fila1[2])*fila1[3];
-        }
-        texto.setText(String.valueOf(valor));
+            valor=(100*fila1[0]+10*fila1[1]+fila1[2])*fila1[3];
 
-    }
+        }
+
+        texto.setText(String.valueOf(valor)+" ohms");
+        if(cont1==1){
+        texto2.setText("Tol "+String.valueOf((int)fila1[3])+" %");
+        texto3.setText( " "+String.valueOf((int) fila1[5])+" PPM"  );}
+       if(cont1==2){
+        texto2.setText("Tol "+String.valueOf((int)fila1[4])+" %");
+        texto3.setText( " "+String.valueOf((int) fila1[5])+" PPM"  );}
+        if(cont1==3) {
+            texto2.setText("Tol " + String.valueOf((int) fila1[4]) + " %");
+            texto3.setText( " "+String.valueOf((int) fila1[5])+" PPM"  );
+        }
+        }
 
   /*  public void onCheckboxClicked(View view) {
 
