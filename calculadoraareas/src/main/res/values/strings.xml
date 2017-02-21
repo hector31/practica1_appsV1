@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CalculadoraAreas</string>
+    <string name="titulo">NOTA FINAL PROGRAMACION</string>
+    <string name="pratica">PRACTICA 60%</string>
+    <string name="cero">0</string>
+    <string name="avance">AVANCE I\n PROYECTO 5%</string>
+    <string name="avance2">AVANCE 2\n PROYECTO 7%</string>
+    <string name="avance3">AVANCE 3\n PROYECTO 8%</string>
+    <string name="appfinal">APLICACION\n FINAL 20%</string>
+    <string name="res">CALCULAR NOTA</string>
+</resources>

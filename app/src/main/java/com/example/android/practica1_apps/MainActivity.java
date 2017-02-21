@@ -1,10 +1,12 @@
 package com.example.android.practica1_apps;
 
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,6 +38,22 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
+                CharSequence text = "Colocar una cantidad en pesos o dolares a convertir";
+                CharSequence text2 = "Colocar solo una cantidad en pesos o en dolares intentar nuevamente ";
+                Context context = getApplicationContext();
+                int duration = Toast.LENGTH_SHORT;
+
+                if (eDolares.getText().toString().equals("")&&ePesos.getText().toString().equals("")) {
+                    Toast toast = Toast.makeText(context, text, duration);
+                    toast.show();}
+
+                if (!eDolares.getText().toString().equals("")&&!ePesos.getText().toString().equals("")) {
+                    Toast toast = Toast.makeText(context, text2, duration);
+                    toast.show();
+                    eDolares.setText("");
+                    ePesos.setText("");
+                }
+
                 if (ePesos.getText().toString().equals("")&&!eDolares.getText().toString().equals("")) {
                     dolares = Double.parseDouble(eDolares.getText().toString());
                     pesos = dolares * 3000;
@@ -47,6 +65,9 @@ public class MainActivity extends AppCompatActivity {
                     eDolares.setText(dolares.toString());
 
                 }
+
+
+
 
             }
 

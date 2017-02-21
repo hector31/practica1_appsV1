@@ -1,10 +1,12 @@
 package com.example.android.calculadora;
 
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         eCero=(Button) findViewById(R.id.b0)   ;
         eIgual=(Button) findViewById(R.id.bIgual)   ;
         eBorrar=(Button) findViewById(R.id.bBorrar);
+
 
 
     }
