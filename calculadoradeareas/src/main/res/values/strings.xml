@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CalculadoraDeAreas</string>
+    <string name="cuadro">Cuadro</string>
+    <string name="circulo">Circulo</string>
+    <string name="triangulo">Triangulo</string>
+    <string name="cubo">Cubo</string>
+    <string name="lado1">Lado 1</string>
+    <string name="lado2">Lado 2</string>
+    <string name="lado3">Lado 3</string>
+    <string name="lado4">Lado 4</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="area">AREA</string>
+    <string name="perimetro">PERIMETRO</string>
+    <string name="titulo">CALCULAR \n(AREA,VOLUMEN,PERIMETRO)</string>
+</resources>

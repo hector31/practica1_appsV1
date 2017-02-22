@@ -1,1 +1,1 @@
-include ':app', ':calculadora', ':calculadoraresistencias', ':calculadoranota'
+include ':app', ':calculadora', ':calculadoraresistencias', ':calculadoranota', ':calculadoradeareas'

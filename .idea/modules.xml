@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculadora/calculadora.iml" filepath="$PROJECT_DIR$/calculadora/calculadora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculadoradeareas/calculadoradeareas.iml" filepath="$PROJECT_DIR$/calculadoradeareas/calculadoradeareas.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculadoranota/calculadoranota.iml" filepath="$PROJECT_DIR$/calculadoranota/calculadoranota.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculadoraresistencias/calculadoraresistencias.iml" filepath="$PROJECT_DIR$/calculadoraresistencias/calculadoraresistencias.iml" />
       <module fileurl="file://$PROJECT_DIR$/practica1_apps.iml" filepath="$PROJECT_DIR$/practica1_apps.iml" />
